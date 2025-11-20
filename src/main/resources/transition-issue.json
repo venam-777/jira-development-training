@@ -1,0 +1,15 @@
+{
+  "url" : "[POST]/rest/api/latest/issue/TEST2-7/transitions",
+  "transition": {
+    "id": 21
+  },
+  "update": {
+    "comment": [
+      {
+        "add": {
+          "body": "Transitioned via API"
+        }
+      }
+    ]
+  }
+}

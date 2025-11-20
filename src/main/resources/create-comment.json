@@ -1,0 +1,8 @@
+{
+  "url" : "[POST]/rest/api/latest/issue/TEST2-7/comment",
+  "body": "This is a comment that only administrators can see.",
+  "visibility": {
+    "type": "role",
+    "value": "Administrators"
+  }
+}

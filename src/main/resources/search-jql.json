@@ -1,0 +1,8 @@
+{
+  "url" : "[POST]/rest/api/latest/search",
+  "jql" : "project=TEST2",
+  "fields" : ["project", "issuekey", "summary", "priority", "issuetype"],
+  "expand" : ["changelog"],
+  "startAt" : 0,
+  "maxResults" : 2
+}

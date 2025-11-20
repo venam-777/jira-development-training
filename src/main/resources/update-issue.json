@@ -1,0 +1,11 @@
+{
+  "url" : "[PUT]/rest/api/latest/issue",
+  "fields": {
+    "summary": "Updated summary via REST",
+    "description": "Updated description via REST",
+    "priority" : {
+      "name" : "Low"
+    },
+    "labels" : ["label3"]
+  }
+}

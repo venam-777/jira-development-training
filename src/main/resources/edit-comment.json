@@ -1,0 +1,8 @@
+{
+  "url" : "[PUT]/rest/api/latest/issue/TEST2-7/comment/58000",
+  "body": "Updated comment",
+  "visibility": {
+    "type": "role",
+    "value": "Administrators"
+  }
+}

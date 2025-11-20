@@ -1,0 +1,20 @@
+{
+  "url" : "[POST]/rest/api/latest/issue",
+  "fields": {
+    "project": {
+      "key": "TEST2"
+    },
+    "summary": "My new issue created via REST API",
+    "description": "This is a detailed description of the issue.",
+    "issuetype": {
+      "name": "Задача"
+    },
+    "priority" : {
+      "name" : "High"
+    },
+    "assignee" : {
+      "name" : "venam"
+    },
+    "labels" : ["label1", "label2"]
+  }
+}

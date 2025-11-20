@@ -1,6 +1,6 @@
 package org.example;
 
-public class CarClass implements CarInterface {
+public class CarClass implements CarInterface, Comparable<CarClass> {
 
     private Integer engine;
 
@@ -57,5 +57,10 @@ public class CarClass implements CarInterface {
         if (engine > 0 && engine < 10) {
             this.engine = engine;
         }
+    }
+
+    @Override
+    public int compareTo(CarClass anotherCar) {
+        return this.engine.compareTo(anotherCar.engine);
     }
 }

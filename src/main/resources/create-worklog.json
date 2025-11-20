@@ -1,0 +1,6 @@
+{
+  "url" : "[POST]/rest/api/latest/issue/TEST2-7/worklog",
+  "timeSpentSeconds": 3600,
+  "comment": "Test comment",
+  "started": "2025-11-19T09:00:00.000+0000"
+}
