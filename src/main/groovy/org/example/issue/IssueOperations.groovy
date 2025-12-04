@@ -286,3 +286,6 @@ if (issue) {
 //deleteIssueWithIssueService("TEST2-16")
 //deleteIssueWithIssueManager("TEST2-17")
 //transitionIssue("TEST2-24", 21)
+//Issue issue = ComponentAccessor.issueManager.getIssueByKeyIgnoreCase("TEST2-24")
+//issue.subTaskObjects
+//issue.parentObject
